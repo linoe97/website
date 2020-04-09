@@ -2,16 +2,19 @@
 
 body {
   background-color: lightgrey;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 h1 {
-  margin: 2%;
+  margin-top: 1%;
     color: darkgrey;
     text-align: center;
     font-family: Arial, sans-serif;
     font-weight: bold;
 
 }
+
 
 #propic {
   display: block;
@@ -30,24 +33,24 @@ h1 {
     flex-wrap: wrap;
 }
 .logo_container > a{
-  
+
     margin: 5%;
 }
 
-.logo>img{
-    height:   180px;
-    margin: 5%;
-}
 
 .row{
-      font-family: Arial, sans-serif;
-      font-weight: bold;
-      background-color: darkgray;
-      color: black;
-      align-self: center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  background-color: darkgray;
+  color: black;
+  align-self: center;
 }
 .row > a{
-  color: black;}
+  color: black;
+}
+.row > a:hover {
+  background-color: gray;
+}
 
 @media (min-width: 1000px) {
   h1 {
@@ -57,16 +60,21 @@ h1 {
     width:30%;
   }
   .row > a{
-    padding-top: 2.5%;
+    padding-top: 1.5%;
     color: black;
   }
   .row > div{
     font-size: 24px;
-    padding: 2%;
+    padding: 1%;
   }
   p {
-    font-size: 20px;
+    font-size: 24px;
   }
+  .logo>img{
+      height:   180px;
+      margin: 5%;
+  }
+
 
 }
 @media (max-width: 999px) {
@@ -83,12 +91,16 @@ h1 {
   p {
     font-size: 60px;
   }
+  #nome {
+    display: none;
+  }
+  .logo>img{
+      height:   260px;
+      margin: 5%;
+  }
 
 }
 
-.row > a:hover {
-    background-color: gray;
-}
 
 p {
     margin-top: 2%;
@@ -96,8 +108,4 @@ p {
     text-align: center;
     font-family: Arial, sans-serif;
     font-weight: bold;
-}
-
-.btn{
-  margin: 2%;
 }
