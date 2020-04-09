@@ -13,7 +13,7 @@ h1 {
 
 }
 
-img {
+#propic {
   display: block;
 
   margin-top: 1%;
@@ -21,6 +21,22 @@ img {
   margin-right: auto;
   align-self: center;
 
+}
+
+.logo_container {
+  align-self: center;
+  align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo_container > a{
+  
+    margin: 5%;
+}
+
+.logo>img{
+    height:   180px;
+    margin: 5%;
 }
 
 .row{
@@ -37,7 +53,7 @@ img {
   h1 {
       font-size: 50px;
   }
-  img{
+  #propic{
     width:30%;
   }
   .row > a{
@@ -57,7 +73,7 @@ img {
   h1{
     font-size: 100px;
   }
-  img {
+  #propic {
     width: 90%;
   }
   .row{
