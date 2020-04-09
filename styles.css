@@ -21,7 +21,7 @@ img {
   margin-right: auto;
   align-self: center;
 
-  }
+}
 
 .row{
       font-family: Arial, sans-serif;
@@ -73,10 +73,6 @@ img {
 .row > a:hover {
     background-color: gray;
 }
-
-
-
-
 
 p {
     margin-top: 2%;
