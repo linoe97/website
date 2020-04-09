@@ -2,10 +2,20 @@ h1 {
     color: darkgrey;
     text-align: center;
     font-family: Arial, sans-serif;
-    font-size: 50px;
     font-weight: bold;
 
 }
+h1 (min-width: 500px) {
+h1{
+    font-size: 50px;
+}
+}
+h1 (min-width: 500px) {
+  h1{
+    font-size: 80px;
+  }
+}
+
 
 body {
   background-color: lightgrey;
