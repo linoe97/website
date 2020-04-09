@@ -5,14 +5,14 @@ h1 {
     font-weight: bold;
 
 }
-h1 (min-width: 500px) {
-h1{
-    font-size: 50px;
+@media (min-width: 1000px) {
+  h1 {
+      font-size: 50px;
+  }
 }
-}
-h1 (min-width: 500px) {
+@media (max-width: 999px) {
   h1{
-    font-size: 80px;
+    font-size: 70px;
   }
 }
 
