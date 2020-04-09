@@ -1,3 +1,5 @@
+
+
 body {
   background-color: lightgrey;
 }
@@ -5,7 +7,10 @@ body {
 
 
 
+
+
 h1 {
+  margin: 2%;
     color: darkgrey;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -13,45 +18,61 @@ h1 {
 
 }
 
-
-@media (min-width: 1000px) {
-  h1 {
-      font-size: 50px;
-  }
-}
-@media (max-width: 999px) {
-  h1{
-    font-size: 70px;
-  }
-}
-
-
-.row > div{
-    background-color: darkgray;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    padding: 1%;
-}
-.row > a{
-    background-color: darkgray;
-    font-family: Arial, sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    padding: 1%;
-}
-.row > div:hover {
-    background-color: gray;
-  }
-
-
-.center{
+img {
   display: block;
 
   margin-top: 1%;
   margin-left: auto;
   margin-right: auto;
-  width:30%;
+
   }
+
+.row{
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      background-color: darkgray;
+      color: black;
+      align-self: center;
+}
+.row > a{
+  color: black;}
+
+@media (min-width: 1000px) {
+  h1 {
+      font-size: 50px;
+  }
+  img{
+    width:30%;
+  }
+  .row > a{
+    padding-top: 2.5%;
+  }
+  .row > div{
+    font-size: 24px;
+    padding: 2%;
+  }
+
+}
+@media (max-width: 999px) {
+  h1{
+    font-size: 100px;
+  }
+  img {
+    width: 90%;
+  }
+  .row{
+    font-size: 40px;
+    align-self: center;
+  }
+}
+
+.row > a:hover {
+    background-color: gray;
+}
+
+
+
+
 
 p {
     margin-top: 10px;
