@@ -2,4 +2,4 @@
 
 Web Programming with Python and JavaScript
 
-site in: https://linoe97.github.io/website/
+site in: https://linoe97.github.io/website/home.it
